@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .fnav{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 6px;
+        color: white;
+        background-color: rgb(42, 42, 68);
+  }
+  .fnav .left{
+      display: flex;
+      margin-top: 10px;
+
+  }
+   
+  .fnav .right{
+      display: flex;
+      margin-top: 16px;
+
+  }
+  .left img{
+      width: 15%;
+      border-radius: 25px;
+      
+  }
+  .right p{
+      margin-inline: 22px;
+  }
+  .right p:hover{
+    color: crimson;
+    cursor: pointer;
+  }
+  .right button{
+      margin-inline: 22px;
+      width: 80px;
+      height: 27px;
+      border: none;
+      border-radius: 2px;
+      background-color: rgb(116, 179, 237);
+      color: white;
+
+  }
+  .right button:hover{
+    background-color: crimson;
+    cursor: pointer;
+  }
+  .right i{
+      margin-inline: 22px;
+      font-size: 22px;
+  }
+  .right i:hover{
+    color: crimson;
+    cursor: pointer;
+  }
+  .sec-nav{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      
+      background-color: rgb(26,26,48);
+      color: rgb(70, 211, 236);
+      
+  }
+   
+  .main img{
+      width: 50%;
+    margin: 20px 20px;
+      border-radius: 100%;
+  }
+  .main {
+     display: flex;
+     font-size: 30px;
+     background-color: black;
+     color: white;
+     
+  }
+  .main p{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .about button{
+    height: 40px;
+    width: 30vh;
+    font-weight: bold;
+    color: rgb(70, 211, 236) ;
+    border-radius: 30px;
+    margin: 20px 20px;
+    border: 2px solid rgb(70, 211, 236);
+    background-color: transparent;
+  }
+  .button{
+     margin-top: 25%;
+     margin-left: 20%;
+  }
+  .about button:hover{
+    cursor: pointer;
+    background-color: rgb(70, 211, 236);
+    color: white;
+  }
+  .about{
+    width: 60vh;
+  }
+     /*------------------------------------------- about me part done ---------------- */
+     .container .first{
+        background-color: orange;
+        font-size: 20px;
+     }
+
+     .container h1{
+        text-align: center;
+        color:  white;
+        font-weight: bold;
+        padding: 20px 20px;
+        
+     }
+     .container h2{
+      text-align: center;
+      padding: 10px;
+      color: white;
+      
+  }
+  .container h3{
+    text-align: center;
+    padding: 22px;
+    color: darkgray;
+}
+.h3{
+  height: 40vh;
+  padding: 10vh 10vh;
+   background-color: rgb(228, 248, 255);
+}
+/*  ------------------------------------------------skill part done -------------------------------- */
+.container2{
+  background-color: rgb(251, 244, 244);
+}
+.container2 .third{
+     background-color: orange;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+}
+.container2 h1{
+  text-align: center;
+  padding: 20px 20px;
+}
+.container2 h2{
+text-align: center;
+padding: 10px;
+}
+.container2 .cart{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+    
+}
+.cart button{
+  height: 30vh;
+  width: 40vh;
+   margin-left: 40px;
+   border-radius: 5px;
+   background-color: aliceblue;
+   font-weight: bold;
+   font-size: 20px;
+   margin-top: 15vh;
+}
+.cart button:hover{
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+/* --------------------------------------------- achivement part done ----------------------------------------  */
+.container1{
+    background-color: rgb(255, 244, 223);
+ }
+ .container1 .fourth{
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+ }
+ .container1 h1{
+    padding: 20px 20px;
+ }
+ .container1 h2{
+  padding: 10px;
+}
+  .container1 .cart{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+  }
+  .cart img{
+      width: 40%;
+      margin-block: 15px;
+      border-radius: 5px;
+      margin-top: 20vh;
+  }
+  /*---------------------------------project part ---------------------------------------*/
+  .cont .second{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+    
+  }
+  .second .ha{
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .cont .image1{
+    display: flex;
+    padding: 20px 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+  }
+   .image1 img{
+    width: 40%;
+    margin-block: 15px;
+    border-radius: 5px;
+    margin-top: 20vh;
+    margin: 20px 40px;
+  }
+  /* ------------------------------------- contect part --------------------------*/
+  .container3{
+        background-color:orange;
+        color: white;
+        
+  }
+  .container3 .fifth{
+    text-align: center;
+    font-weight: 12px;
+    font-size: 20px;
+  } 
+   
+.icon i{
+    margin-inline: 33px;
+    font-size: 25px;
+    color: white; 
+    background-color: orange;
+    cursor: pointer;
+    display: flex;
+    padding-top: 10px;
+
+}
+.icon i:hover{
+    color: red;
+}
+.icon{
+  text-align: center;
+  width: 10vh;
+  padding: 20px 10vh;
+}
+.information{
+  display: flex;
+}
+.info{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10vh;
+}
+.info p{
+  padding-top: 15px;
+}
+  /*--------------------------------------footer part -----------------------*/
+  .footer{
+      background-color: rgb(9, 9, 9);
+      padding: 33px;
+       
+
+  }
+   
+  .footer h3{
+      color: white;
+       text-align: center;
+       margin-bottom: 20px;
+       
+  }
+   
